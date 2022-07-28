@@ -52,7 +52,7 @@ Block **gender** --> {F, F, M, M}
 Block **level** --> {paid, free, free, free} 
 
 
-To enable fast retrieval of query data at any time, these types of database systems are equipped with the ability to specify partition and clustering keys. In the case of Redshift, a number of settings are available to the data engineer to improve query performance when designing tables. These factors are:
+To enable fast retrieval of query data at any time, these types of database systems are equipped with the ability to specify partition and clustering keys. In the case of Redshift, a number of settings are available to the data engineer to improve query performance when designing tables. These settings are:
 
 - distribution, by evenly assigning data and processing tasks to each node
 - sorting, by organizing the data on disk to minimize the number of disk reads
