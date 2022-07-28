@@ -69,7 +69,7 @@ In order to be able to run the provided python scripts, the following criteria n
 - Python must be installed in version 3.6.3 or higher.
 - It is highly recommended to install the necessary Python libraries in a virtual environment.
 - Access to an AWS account with permission to access S3 buckets and deploy a Redshift cluster.
-- Save all required string connection data in the *dwh.cfg* file
+- Save all required string connections data in the *dwh.cfg* file
 
 There are three main Python scripts used to create and populate the Redshift database required by Sparkify. These are:
 
